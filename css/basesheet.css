@@ -1,0 +1,109 @@
+body
+{
+   background-color:black;
+   color:#A0A0A0;
+}
+
+#pagetop
+{
+	margin: auto;
+	text-align: center;
+}
+/* ----- DROP DOWN MENU ------*/
+ul 
+{
+	list-style: none;
+	padding: 0px;
+	margin: auto; 
+}
+ul li 
+{
+	display: inline-block;
+	position: relative;
+	/*float: left;
+	border:1px solid #000*/
+}
+li ul 
+{
+	display: none;
+}
+ul li a 
+{
+	display: inline-block;
+	background: #7C7C7C;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #fff;
+	border-radius: 4px;
+	text-align: left;
+}
+ul li a:hover
+{
+	background: #555555;
+}
+li:hover ul 
+{
+	display: block; 
+	position: absolute;
+}
+li:hover li 
+{
+	float: none;
+}
+li:hover a 
+{
+	background: #707070;
+}
+li:hover li a:hover 
+{
+	background: #555555;
+}
+#drop-nav li ul li
+{
+	border-top: 0px;
+}
+/* ----- END DROP MENU ----- */
+/*
+#menu
+{
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+   font-family: arial, sans-serif;
+}
+
+#menu li
+{
+   display: inline;
+}
+
+#menu li a
+{
+   background-color: #7C7C7C;
+   color: #FFFFFF;
+   padding: 10px;
+   border-radius: 4px;
+   margin: 0px 1px;
+}
+
+#menu li a:hover
+{
+   background-color: #555555;
+}
+*/
+#main
+{
+   border-radius: 4px;
+   background-color: #333333;
+   width: 75%;
+   padding:10px;
+   vertical-align: top;
+   margin: 0 auto;
+   font-family: arial, sans-serif;
+}
+
+#footer
+{
+   clear:both;
+}
